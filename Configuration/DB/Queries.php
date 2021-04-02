@@ -12,6 +12,8 @@
  *
  */
 
+use JetBrains\PhpStorm\Pure;
+
 
 /**
  * Class Queries to mange the query request
@@ -58,7 +60,7 @@ class Queries{
      * @return string | null
      * @author Ahmed Mera
      */
-    public function getQuery(string | int $questionNumber): string | null{
+    #[Pure] public function getQuery(string | int $questionNumber): string | null{
         return match (strval($questionNumber)){
             "4" => "SELECT codImp, cognome FROM impiegati WHERE cognome LIKE 'a%'",
             "5" => "SELECT cognome FROM impiegati i JOIN dipartimenti d ON i.codDip = d.codDip AND d.citta = ? ORDER BY cognome ASC;",
@@ -80,7 +82,7 @@ class Queries{
      * @param string|int $questionNumber
      * @return array | null
      */
-    public function getArg(string | int $questionNumber): array | null{
+    #[Pure] public function getArg(string | int $questionNumber): array | null{
         return match(strval($questionNumber)){
             "5", "9", "10" => array("torino"),
             "6" => array("roma"),

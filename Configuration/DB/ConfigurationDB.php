@@ -18,12 +18,13 @@
  */
 class ConfigurationDB{
 
-    private string $dns;
+    private string $dsn;
     private string $user;
     private string $pass;
     private string $dataBasename;
     private string $host;
-    private int $port;
+    private int    $port;
+    private string $errorID;
 
     /**
      * ConfigurationDB constructor.
@@ -40,7 +41,7 @@ class ConfigurationDB{
         $this->dataBasename = $dataBasename;
         $this->host = $host;
         $this->port = $port;
-        $this->dns = "mysql:host={$this->host};port={$this->port};dbname={$this->dataBasename}";
+        $this->dsn = "mysql:host={$this->host};port={$this->port};dbname={$this->dataBasename}";
     }
 
 
@@ -51,7 +52,7 @@ class ConfigurationDB{
      * @author Ahmed Mera
      */
     public function connect(): PDO {
-        $con = new PDO($this->dns , $this->user, $this->pass);
+        $con = new PDO($this->dsn , $this->user, $this->pass);
         $con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         return $con;
     }
@@ -70,7 +71,9 @@ class ConfigurationDB{
 
         $ERROR = (array)json_decode(file_get_contents($file)); //get content from file
 
-        $ERROR[uniqid()] =  array(
+        $this->errorID = uniqid() . count($ERROR); // id error
+
+        $ERROR[$this->errorID] =  array(
             'error_msg'  => $e->getMessage(),
             'error_file' => $e->getFile(),
             'error_line' => $e->getLine(),
@@ -106,15 +109,15 @@ class ConfigurationDB{
      */
     public function getDns(): string
     {
-        return $this->dns;
+        return $this->dsn;
     }
 
     /**
-     * @param string $dns
+     * @param string $dsn
      */
-    public function setDns(string $dns): void
+    public function setDns(string $dsn): void
     {
-        $this->dns = $dns;
+        $this->dsn = $dsn;
     }
 
     /**
@@ -179,6 +182,22 @@ class ConfigurationDB{
     public function setHost(string $host): void
     {
         $this->host = $host;
+    }
+
+    /**
+     * @return string
+     */
+    public function getErrorID(): string
+    {
+        return $this->errorID;
+    }
+
+    /**
+     * @param string $errorID
+     */
+    public function setErrorID(string $errorID): void
+    {
+        $this->errorID = $errorID;
     }
 
 
