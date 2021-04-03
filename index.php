@@ -12,6 +12,7 @@
  */
 
 
+
 ?>
 
 
@@ -30,6 +31,7 @@
     <title>titolo</title>
 </head>
 <body>
+
 
 <div class="container-fluid">
     <h1 class="center-align title "> DATABASE </h1>
@@ -65,7 +67,7 @@
                         <div class="row">
                             <div class="input-field col s11 query">
                                 <i class="fas fa-database material-icons prefix"></i>
-<!--                                <i class="material-icons  prefix">mode_edit</i>-->
+                                <!-- <i class="material-icons  prefix">mode_edit</i>-->
                                 <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
                                 <label for="icon_prefix2">Scrivi la tua query</label>
                             </div>
