@@ -65,9 +65,6 @@
     top: 1rem !important;
 }
 
-.autocomplete-content.dropdown-content{
-    width: 50% !important;
-}
 
 .data{
     margin-top: 20px;
@@ -82,4 +79,14 @@
 .data > h2{
     margin-bottom: 35px;
 }
+.description{
+    padding: 100px 10px;
+}
 
+.redColor{
+    color: var(--danger) !important;
+}
+
+.redBorder{
+    border-bottom: var(--danger) !important;
+}
