@@ -58,6 +58,8 @@ sendQuery.onclick = event => event.preventDefault(); // to block event send
 
 /**
  * list of to do:
+ * TODO chiedere tutti gli argomenti al server e poi metterli nella tendina
+ * TODO onChange la tendina dobbiamo visualizzare la descrizioni relativa all'argomento
  * TODO mandare i dati dal client al server
  * TODO controllare lato cliente sql injection (tutti le possibilità)
  * TODO checker php per evitare sql injection (tutti le possibilità)
