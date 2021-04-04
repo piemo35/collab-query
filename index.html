@@ -1,21 +1,3 @@
-<?php
-/*
- *
- *  *  Copyright (c) 2021
- *  *  Version: AM FREE 1.0.0
- *  *
- *  *  Copyright: Ahmed Mera
- *  *  https://mera.ddns.net
- *  *
- *  *  Contact: meraahmedibrahim@itis-molinari.eu
- *
- */
-
-
-
-?>
-
-
 <!doctype html>
 <html lang="it">
 <head>
@@ -60,20 +42,19 @@
 
             <div class="content z-depth-3">
                 <h2>Pratica</h2>
-
                 <!--      query space          -->
-                <div class="row ">
+                <div class="row">
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s11 query">
                                 <i class="fas fa-database material-icons prefix"></i>
                                 <!-- <i class="material-icons  prefix">mode_edit</i>-->
-                                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <textarea id="icon_prefix2 textQuery" class="materialize-textarea"></textarea>
                                 <label for="icon_prefix2">Scrivi la tua query</label>
                             </div>
 
                             <div class="col offset-s9">
-                                <button class="btn waves-effect waves-light" disabled type="submit" name="action">Submit
+                                <button id="sendQuery" class="btn waves-effect waves-light" disabled type="submit" name="action">Submit
                                     <i class="material-icons right">send</i>
                                 </button>
                             </div>
@@ -89,18 +70,12 @@
     <div class="row"></div>
 </div>
 <!--fontawesome -->
-<script src="https://kit.fontawesome.com/650809f241.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://kit.fontawesome.com/650809f241.js"></script>
 <!-- jquery -->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js" ></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" ></script>
 <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-        $('select').formSelect();
-    });
-</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!-- my js   -->
-<script src="./js/main.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
