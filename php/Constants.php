@@ -17,13 +17,13 @@ final class Constants {
 
     /**
      * helper function to generate msg error
-     * @param string $codErro
+     * @param string $codError
      * @return string
      * @author Ahmed Mera
      */
-    public function getErrorMSG(string $codErro): string
+    public function getErrorMSG(string $codError): string
     {
-        return  $this->ERROR_MSG . "<b> {$codErro} </b>" ;
+        return  $this->ERROR_MSG . "<b> {$codError} </b>" ;
     }
 
 
