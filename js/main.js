@@ -111,8 +111,9 @@ $(document).on('keyup', 'textarea', function() {
  * @returns {boolean}
  */
 function isValidQuery(value){
-    const regx = /[\/\\?{}#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
-    return !value.match(regx) && value.length > 15;
+    //const regx = /[\/\\?{}#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
+    const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)|(script)/img
+    return !value.match(regx) && value.length > 14;
 }
 
 

@@ -91,7 +91,10 @@
     border-bottom-color: var(--danger) !important;
 }
 
+.redBorder:focus{
+    box-shadow: 0 1px 0 0 var(--danger) !important;
 
+}
 
 .error{
     position: relative;
@@ -111,7 +114,6 @@
     z-index: 2;
 }
 
-.redBorder:focus{
-    box-shadow: 0 1px 0 0 var(--danger) !important;
-
+.tab-riferimento{
+    margin-top: 50px;
 }
