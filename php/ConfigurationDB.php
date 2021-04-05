@@ -26,6 +26,7 @@ class ConfigurationDB{
     private int    $port;
     private string $errorID;
 
+
     /**
      * ConfigurationDB constructor.
      * @param string $user default {@value admin}
@@ -79,6 +80,7 @@ class ConfigurationDB{
             'error_line' => $e->getLine(),
             'error_code' => $e->getCode(),
             'trace'      => $e->getTrace(),
+            'ipv4'       => $_SERVER['REMOTE_ADDR'],
             'date'       => date("d-m-Y H:i:s")
         );
 
@@ -102,6 +104,8 @@ class ConfigurationDB{
             return "file is exist.";
         }
     }
+
+
 
 
     /**
@@ -200,6 +204,7 @@ class ConfigurationDB{
     {
         $this->errorID = $errorID;
     }
+
 
 
 }

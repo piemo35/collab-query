@@ -112,7 +112,7 @@ $(document).on('keyup', 'textarea', function() {
  */
 function isValidQuery(value){
     //const regx = /[\/\\?{}#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
-    const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)|(script)/img
+    const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
     return !value.match(regx) && value.length > 14;
 }
 
@@ -151,10 +151,10 @@ function removeError(){
  *  onChange la tendina dobbiamo visualizzare la descrizioni relativa all'argomento (OK)
  *  mandare i dati dal client al server (la query) (ok)
  *  controllare lato cliente sql injection (tutti le possibilità) (ok)
- * TODO checker php per evitare sql injection (tutti le possibilità)
+ *  checker php per evitare sql injection (tutti le possibilità) (ok)
  * TODO visualizzazioni dei dati ricevuti dal server
  * TODO restituire i dati al client in tabella
- * TODO creazione della tabella di riferimento nella parte di partica
- * TODO esmpio di query nella prte di descriptions
+ * creazione della tabella di riferimento nella parte di pratica (ok)
+ * TODO esempio di query nella parte di descriptions
  *
  * */

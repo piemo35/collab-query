@@ -1,16 +1,29 @@
 <!doctype html>
 <html lang="it">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTFEVMMH5J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KTFEVMMH5J');
+    </script>
     <meta charset="UTF-8">
+    <meta name="description" content="Home page">
+    <meta name="keywords" content=" To learn programming (Html, javaScript, css, php, MySQL, Java, html5, css3, ES6), frameworks(bootstrap, mdbootstrap, alertsSweet2 ) and author Ahmed Mera, school ITIS Molinari, informatica ">
+    <meta name="author" content="Ahmed Mera">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../page3/images/logo.red.pieno.png" />
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- my css   -->
     <link rel="stylesheet" href="./css/main.css">
-    <title>titolo</title>
+    <title>DATABASE</title>
 </head>
 <body>
 
@@ -62,8 +75,17 @@
                             </div>
 
                             <div class="col s12 tab-riferimento">
-                                <p>Tabella di riferimento: </p>
-                                <h6>Dipendenti(<u>Id</u>, Nome, Cognome, Reparto, Stipendio)</h6>
+
+                                    <p>
+                                        <code>
+                                            Tabella di riferimento:
+                                        </code>
+                                    </p>
+                                    <h6>
+                                        <code>
+                                            students(<u>Id</u>, name, surname, <u>email</u>, gender, registered)
+                                        </code>
+                                    </h6>
                             </div>
                         </div>
                     </form>

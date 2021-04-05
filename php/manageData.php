@@ -11,12 +11,31 @@
  *
  */
 
+ob_start();
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['req'] == 'arguments'){
-    echo json_encode([["id" => 1, "title" => "vista", "description" => "vista"], ["id" => 2, "title" => "procedure", "description" => "procedure"]]);
-}
-elseif ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['req'] == 'query'){
-    echo json_encode($_POST);
+// include files automatic
+spl_autoload_register(function ($class){
+    require_once __DIR__."/{$class}.php";
+});
+
+$checker = new Checker(); // instance object
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['req'])){
+
+    $data = filter_var_array($_POST,FILTER_SANITIZE_STRING); // filter the post
+
+    echo match ($data['req']) {
+        'arguments' => json_encode([["id" => 1, "title" => "vista", "description" => "vista"], ["id" => 2, "title" => "procedure", "description" => "procedure"]]),
+        'query' => json_encode($_POST),
+        default => null
+    };
+
 } else{
-    echo json_encode(["esito" => "KO"]);
+
+    $checker->getConfigurationDB()->saveError(new PDOException("no post request"));
+    print_r( json_decode($checker->sendData(data: $checker->getErrorMSG(), success: false)));
+
 }
+
+
+ob_end_flush();
