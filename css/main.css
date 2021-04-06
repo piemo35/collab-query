@@ -33,6 +33,8 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --materializze-red: #ee6e73;
+    --materializze-green: #26a69a;
     --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
@@ -79,8 +81,13 @@
 .data > h2{
     margin-bottom: 35px;
 }
-.description{
-    padding: 100px 10px;
+.teoria .description{
+    padding: 65px 10px;
+}
+
+.teoria .description  p {
+    font-size: 18px;
+    font-family: auto, serif;
 }
 
 .redColor{
@@ -115,4 +122,15 @@
 
 .tab-riferimento{
     margin-top: 50px;
+}
+
+.header{
+    color: var(--materializze-red);
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.queryExample{
+    font-size: 18px;
+    font-weight: bold;
 }

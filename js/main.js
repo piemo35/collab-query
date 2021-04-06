@@ -60,21 +60,48 @@ $.post(file, {"req" : "arguments"}, data => populate(JSON.parse(data)));
  */
 function populate(data){
     // console.log(Object.keys(data[0]))
+    console.log(data);
     // create select
     data.forEach( currentElement => {
         selectElement.append(`<option value = "${currentElement?.id}">  ${currentElement?.title.toUpperCase()} </option>`)
-        descriptions.append($(`<p id = "${currentElement?.id}" class="flow-text">${currentElement?.description}</p>`))
+
+        descriptions.append($(
+            `<div id = "${currentElement?.id}">
+                 <h6>Argomento Scelto é <b>${currentElement?.title.toUpperCase()}</b>:</h6>
+                  <p>${currentElement?.description}</p>
+                    <!-- Modal Trigger -->
+                   <a class="waves-effect waves-light btn modal-trigger" href="#modal${currentElement?.id}">Query di esempio</a>
+                   <!-- Modal Structure -->
+                  <div id="modal${currentElement?.id}" class="modal bottom-sheet">
+                    <div class="modal-content">
+                      <h4 class="header">Query di esempio</h4>
+                      <p>Qua trovi una query di esempio per creare <b>${currentElement?.title.toUpperCase()}</b></p>
+                      <code class="queryExample">${currentElement?.queryExample}</code>
+
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+                    </div>
+                  </div>
+              </div>`
+            )
+        )
+
     });
 
-    descriptions.children().hide()
+    $('.teoria .description > div').hide()
 
-    $(document).ready(_=> selectElement.formSelect()); // init select
+    $(document).ready(_=> {
+        selectElement.formSelect();
+        $('.modal').modal();
+    }); // init select and model
+
 }
 
 
 // will show only description if argument is chosen from select
 $(document).on('change', 'select', function() {
-    $(`#${$(this).val()}`).show(500).siblings().hide(300)
+    $(`#${$(this).val()}`).show(100).siblings().hide()
 });
 
 
@@ -152,9 +179,9 @@ function removeError(){
  *  mandare i dati dal client al server (la query) (ok)
  *  controllare lato cliente sql injection (tutti le possibilità) (ok)
  *  checker php per evitare sql injection (tutti le possibilità) (ok)
+ * creazione della tabella di riferimento nella parte di pratica (ok)
+ *  esempio di query nella parte di descriptions (ok)
  * TODO visualizzazioni dei dati ricevuti dal server
  * TODO restituire i dati al client in tabella
- * creazione della tabella di riferimento nella parte di pratica (ok)
- * TODO esempio di query nella parte di descriptions
  *
  * */

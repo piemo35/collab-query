@@ -61,10 +61,10 @@ class ConfigurationDB{
 
     /**
      * helper function to save error
-     * @param PDOException $e
+     * @param mixed $e
      * @return int | false The function returns the number of bytes that were written to the file, or
      */
-    public function saveError(PDOException $e): bool | int
+    public function saveError(mixed $e): bool | int
     {
         $file = __DIR__.'/error.json';
 

@@ -18,22 +18,25 @@ spl_autoload_register(function ($class){
     require_once __DIR__."/{$class}.php";
 });
 
+
+$input = json_decode(file_get_contents("php://input"), true); //request json
+
 $checker = new Checker(); // instance object
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['req'])){
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || $checker->isEmptyOrNull($input))){
 
-    $data = filter_var_array($_POST,FILTER_SANITIZE_STRING); // filter the post
+    $data = filter_var_array(array: (count($_POST) ? $_POST : $input), options: FILTER_SANITIZE_STRING); // filter the post
 
     echo match ($data['req']) {
-        'arguments' => json_encode([["id" => 1, "title" => "vista", "description" => "vista"], ["id" => 2, "title" => "procedure", "description" => "procedure"]]),
+//        'arguments' => json_encode([["id" => 1, "title" => "vista", "description" => "vista"], ["id" => 2, "title" => "procedure", "description" => "procedure"]]),
+        'arguments' => json_encode($checker->getArguments()),
         'query' => json_encode($_POST),
-        default => null
+        default => $checker->badRequestResponse($data)
     };
 
 } else{
 
-    $checker->getConfigurationDB()->saveError(new PDOException("no post request"));
-    print_r( json_decode($checker->sendData(data: $checker->getErrorMSG(), success: false)));
+    echo $checker->forbiddenResponse(count($_GET) ? $_GET : $_REQUEST);
 
 }
 

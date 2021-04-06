@@ -15,7 +15,7 @@ use JetBrains\PhpStorm\Pure;
 
 class Checker{
 
-    public static string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/';
+    public static string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/im';
     public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
     private ConfigurationDB $configurationDB;
     private PDO $pdo;
@@ -36,6 +36,16 @@ class Checker{
 
 
     /**
+     * function to get all arguments
+     * @return array|string|null
+     * @author Ahmed Mera
+     */
+    public function getArguments(): array | string | null{
+        return $this->executeQuery("SELECT * FROM arguments");
+    }
+
+
+    /**
      * helper function to execute the query and his args if exist
      * @param string $query
      * @return array|string|null
@@ -43,8 +53,14 @@ class Checker{
      */
     public function executeQuery(string $query): array | string | null  {
         try{
+
+            if(!$this->isValidData($query))
+                throw new PDOException("Query dose NOT Valid. query --> " . $query);
+
             $statement = $this->pdo->prepare(query: $query);
+            $statement->execute();
             return $statement->fetchAll(PDO::FETCH_ASSOC);
+
         }catch (PDOException $exception){
             $this->configurationDB->saveError($exception);
             return $this->getErrorMSG();
@@ -52,17 +68,18 @@ class Checker{
 
     }
 
+
     /**
      * function to check if data is valid or not
      * @param string $data
-     * @return int | false <b>preg_match</b> returns 1 if the <i>pattern</i>
+     * @return bool <b>preg_match</b> returns 1 if the <i>pattern</i>
      * matches given <i>subject</i>, 0 if it does not, or <b>FALSE</b>
      * if an error occurred.
      * @author Ahmed Mera
      */
-    public function isValidData(string $data): bool|int
+    public function isValidData(string $data): bool
     {
-        return preg_match(Checker::$pattern, $data);
+        return !preg_match(Checker::$pattern, $data);
     }
 
 
@@ -124,10 +141,35 @@ class Checker{
      * @return string
      * @author Ahmed Mera
      */
-    #[Pure]
-    public function getErrorMSG(): string
+    #[Pure] public function getErrorMSG(): string
     {
         return  Checker::$ERROR_MSG . "<b> {$this->configurationDB->getErrorID()} </b>" ;
+    }
+
+
+    /**
+     * function to print json response
+     * @param array $args
+     * @return string
+     */
+    public function forbiddenResponse(array $args): string
+    {
+        $this->configurationDB->saveError(new Exception("no post request or missed param req"));
+        http_response_code(403);
+        return '{"success": false, "error": {"status" : 403, "message": "Forbidden"}}';
+    }
+
+
+    /**
+     * function to print json response
+     * @param array $args
+     * @return string
+     */
+    public function badRequestResponse(array $args): string
+    {
+        $this->configurationDB->saveError(new Exception("Bad args"));
+        http_response_code(400);
+        return '{"success": false, "error": {"status" : 400, "message": "Bad Request"}}';
     }
 
 
