@@ -54,7 +54,7 @@ $.post(file, {"req" : "arguments"}, data => populate(JSON.parse(data)));
 
 
 /**
- * function to create the party of arguments
+ * function to create the party of arguments and description
  * @param data
  * @author Ahmed Mera
  */
@@ -80,7 +80,7 @@ function populate(data){
 
                     </div>
                     <div class="modal-footer">
-                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+                      <a href="javascript:void(0)" class="modal-close waves-effect waves-green btn-flat">Ho Capito</a>
                     </div>
                   </div>
               </div>`
@@ -147,7 +147,10 @@ function isValidQuery(value){
 
 sendQueryButton.onclick = event => {
     event.preventDefault();
-    $.post(file, {"req" : "query", 'data' : textAreaElement.val()}, data => console.log(data));
+    const query = textAreaElement.val();
+
+    if(isValidQuery(query))
+        $.post(file, {"req" : "query", 'data' : query}, data => console.log(data));
 
 } // to block event send
 

@@ -23,12 +23,11 @@ $input = json_decode(file_get_contents("php://input"), true); //request json
 
 $checker = new Checker(); // instance object
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || $checker->isEmptyOrNull($input))){
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || !$checker->isEmptyOrNull($input))){
 
     $data = filter_var_array(array: (count($_POST) ? $_POST : $input), options: FILTER_SANITIZE_STRING); // filter the post
 
     echo match ($data['req']) {
-//        'arguments' => json_encode([["id" => 1, "title" => "vista", "description" => "vista"], ["id" => 2, "title" => "procedure", "description" => "procedure"]]),
         'arguments' => json_encode($checker->getArguments()),
         'query' => json_encode($_POST),
         default => $checker->badRequestResponse($data)
