@@ -110,12 +110,10 @@ $(document).on('change', 'select', function() {
 $(document).on('keyup', 'textarea', function() {
     if (isValidQuery($(this).val())){
         removeError()
-        console.log('valid')
-        sendQueryButton.disabled = false;
+        ableBtn(null)
     }else{
         setError()
-        console.log("not valid")
-        sendQueryButton.disabled = true;
+        disableBtn(null)
     }
 
     // const suggestions = keywords.filter(ele => ele.toLowerCase().includes($(this).val()));
@@ -138,7 +136,6 @@ $(document).on('keyup', 'textarea', function() {
  * @returns {boolean}
  */
 function isValidQuery(value){
-    //const regx = /[\/\\?{}#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
     const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/img
     return !value.match(regx) && value.length > 14;
 }
@@ -151,6 +148,8 @@ sendQueryButton.onclick = event => {
 
     if(isValidQuery(query))
         $.post(file, {"req" : "query", 'data' : query}, data => console.log(data));
+    else
+        disableBtn(null)
 
 } // to block event send
 
@@ -172,6 +171,18 @@ function removeError(){
     $('.error .active').removeClass('redColor')
     $('.error textarea').removeClass('redBorder')
 }
+
+/**
+ * arrow function to disable button
+ * @returns {boolean}
+ */
+const disableBtn = _=> sendQueryButton.disabled = true;
+
+/**
+ * arrow function to able button
+ * @returns {boolean}
+ */
+const ableBtn = _=> sendQueryButton.disabled = false;
 
 
 
