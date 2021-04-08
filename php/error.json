@@ -489,5 +489,430 @@
     ],
     "ipv4": "172.17.0.1",
     "date": "07-04-2021 20:06:37"
+  },
+  "606f7f4cf1c3c37": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:20"
+  },
+  "606f7f571188838": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:31"
+  },
+  "606f7f571308139": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:31"
+  },
+  "606f7f64deeb040": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:44"
+  },
+  "606f7f64e131f41": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:44"
+  },
+  "606f81d77fcd142": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 162,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:21:11"
+  },
+  "606f84f65468543": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:34:30"
+  },
+  "606f852184ff544": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:35:13"
+  },
+  "606f8532b3fe645": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:35:30"
+  },
+  "606f856a9779746": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:36:26"
+  },
+  "606f85a153abd47": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:37:21"
+  },
+  "606f864fb47c648": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:40:15"
+  },
+  "606f869f91fee49": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:41:35"
+  },
+  "606f8a71789ae50": {
+    "error_msg": "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql_injection.persone' doesn't exist",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42S02",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:57:53"
+  },
+  "606f8ac938fd351": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:59:21"
+  },
+  "606f8ce92172a52": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 23:08:25"
   }
 }

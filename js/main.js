@@ -60,14 +60,17 @@ $.post(file, {"req" : "arguments"}, data => populate(JSON.parse(data)));
  */
 function populate(data){
     // console.log(Object.keys(data[0]))
-    console.log(data);
-    // create select
-    data.forEach( currentElement => {
-        selectElement.append(`<option value = "${currentElement?.id}">  ${currentElement?.title.toUpperCase()} </option>`)
+    // console.log(data);
 
-        descriptions.append($(
-            `<div id = "${currentElement?.id}">
-                 <h6>Argomento Scelto é <b>${currentElement?.title.toUpperCase()}</b>:</h6>
+    if(data?.success) {
+
+        // create select
+        (data?.response).forEach(currentElement => {
+            selectElement.append(`<option value = "${currentElement?.id}">  ${currentElement?.title.toUpperCase()} </option>`)
+
+            descriptions.append($(
+                `<div id = "${currentElement?.id}">
+                 <h6>L'argomento scelto é <b>${currentElement?.title.toUpperCase()}</b>:</h6>
                   <p>${currentElement?.description}</p>
                     <!-- Modal Trigger -->
                    <a class="waves-effect waves-light btn modal-trigger" href="#modal${currentElement?.id}">Query di esempio</a>
@@ -84,10 +87,11 @@ function populate(data){
                     </div>
                   </div>
               </div>`
+                )
             )
-        )
+        });
+    }
 
-    });
 
     $('.teoria .description > div').hide()
 
@@ -144,10 +148,10 @@ function isValidQuery(value){
 
 sendQueryButton.onclick = event => {
     event.preventDefault();
-    const query = textAreaElement.val();
+    const query = textAreaElement.val().trim();
 
     if(isValidQuery(query))
-        $.post(file, {"req" : "query", 'data' : query}, data => console.log(data));
+        $.post(file, {"req" : "query", "query" : query}, data => console.log(JSON.parse(data)));
     else
         disableBtn(null)
 

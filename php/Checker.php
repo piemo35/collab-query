@@ -19,6 +19,7 @@ class Checker{
     public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
     private ConfigurationDB $configurationDB;
     private PDO $pdo;
+    private bool $success = false;
 
 
     /**
@@ -59,9 +60,14 @@ class Checker{
 
             $statement = $this->pdo->prepare(query: $query);
             $statement->execute();
-            return $statement->fetchAll(PDO::FETCH_ASSOC);
+            $recordSet = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+            $this->success = true;
+
+            return $recordSet;
 
         }catch (PDOException $exception){
+            $this->success = false;
             $this->configurationDB->saveError($exception);
             return $this->getErrorMSG();
         }
@@ -110,13 +116,12 @@ class Checker{
     /**
      * function to send data to client
      * @param mixed $data
-     * @param bool $success
      * @return string|false a JSON encoded string on success or <b>FALSE</b> on failure.
      * @author Ahmed Mera
      */
-    public function sendData(mixed $data, bool $success): bool|string
+    public function sendData(mixed $data): bool|string
     {
-         return json_encode(['success' => $success, 'response' => $data]);
+         return json_encode(['success' => $this->success, 'response' => $data]);
     }
 
 

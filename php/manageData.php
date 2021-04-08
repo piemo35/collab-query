@@ -25,11 +25,16 @@ $checker = new Checker(); // instance object
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || !$checker->isEmptyOrNull($input))){
 
-    $data = filter_var_array(array: (count($_POST) ? $_POST : $input), options: FILTER_SANITIZE_STRING); // filter the post
+    $args = array( 'req' => FILTER_SANITIZE_ENCODED,
+                  'query' => array('filter' => FILTER_SANITIZE_STRING, 'flags' => FILTER_FLAG_NO_ENCODE_QUOTES)
+    );
+
+
+    $data = filter_var_array(array: (count($_POST) ? $_POST : $input), options: $args); // filter the post FILTER_FLAG_NO_ENCODE_QUOTES
 
     echo match ($data['req']) {
-        'arguments' => json_encode($checker->getArguments()),
-        'query' => json_encode($_POST),
+        'arguments' => $checker->sendData($checker->getArguments()),
+        'query' => $checker->sendData($checker->executeQuery($data['query'])),
         default => $checker->badRequestResponse($data)
     };
 
