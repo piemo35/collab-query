@@ -15,8 +15,8 @@ use JetBrains\PhpStorm\Pure;
 
 class Checker{
 
-    public static string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
     public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
+    protected string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
     private ConfigurationDB $configurationDB;
     private PDO $pdo;
     private bool $success = false;
@@ -85,7 +85,7 @@ class Checker{
      */
     public function isValidData(string $data): bool
     {
-        return !preg_match(Checker::$pattern, $data);
+        return !preg_match($this->pattern, $data);
     }
 
 
