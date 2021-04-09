@@ -1278,5 +1278,61 @@
     ],
     "ipv4": "172.17.0.1",
     "date": "09-04-2021 23:03:11"
+  },
+  "6070de8d206f866": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select count(name) as total from students@"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 23:09:01"
+  },
+  "6070dedba2bd867": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select count(name) as total from students@"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 23:10:19"
   }
 }

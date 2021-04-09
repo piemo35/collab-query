@@ -205,7 +205,10 @@ function createTable(resultSet){
 
     if(resultSet?.success) {
 
-        console.log(Object.keys(resultSet?.response[0]));
+        // console.log(Object.keys(resultSet?.response[0]));
+        $(table).show();
+        $('.errors').hide();
+
         // create thead
             (Object.keys(resultSet?.response[0])).forEach(currentKey => thead += `<th> ${currentKey} </th>`);
         thead += `</tr>`;
@@ -225,12 +228,13 @@ function createTable(resultSet){
 
         table.innerHTML = (thead + tbody);
 
+
     }else{
         // console.log(resultSet)
         $(table).hide();
         setError()
         disableBtn(null)
-        $('.errors').html(resultSet?.response);
+        $('.errors').html(resultSet?.response).show();
     }
 
 }
