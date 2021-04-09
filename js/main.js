@@ -44,7 +44,8 @@ const sendQueryButton    = document.getElementById('sendQuery'),
       descriptions       = $('.description'),
       textAreaElement    = $('textarea'),
       suggestionsElement = $('.suggestion'),
-      file               = "./php/manageData.php";
+      file               = "./php/manageData.php",
+     table               = document.getElementById("table");
 
 
 
@@ -150,10 +151,12 @@ sendQueryButton.onclick = event => {
     event.preventDefault();
     const query = textAreaElement.val().trim();
 
-    if(isValidQuery(query))
-        $.post(file, {"req" : "query", "query" : query}, data => console.log(JSON.parse(data)));
-    else
+    if(isValidQuery(query)) {
+        $.post(file, {"req" : "query", "query" : query}, data => createTable(JSON.parse(data)));
+    } else {
+        setError()
         disableBtn(null)
+    }
 
 } // to block event send
 
@@ -163,7 +166,7 @@ sendQueryButton.onclick = event => {
  * @author Ahmed Mera
  */
 function setError(){
-    $('.error .active').addClass('redColor')
+    $('.error .fa-database, .error label').addClass('redColor')
     $('.error textarea').addClass('redBorder')
 }
 
@@ -172,7 +175,7 @@ function setError(){
  * @author Ahmed Mera
  */
 function removeError(){
-    $('.error .active').removeClass('redColor')
+    $('.error .fa-database, .error label').removeClass('redColor')
     $('.error textarea').removeClass('redBorder')
 }
 
@@ -180,14 +183,57 @@ function removeError(){
  * arrow function to disable button
  * @returns {boolean}
  */
-const disableBtn = _=> sendQueryButton.disabled = true;
+const disableBtn = _=> {
+    $(sendQueryButton).removeClass('pulse')
+    sendQueryButton.disabled = true;
+}
 
 /**
  * arrow function to able button
  * @returns {boolean}
  */
-const ableBtn = _=> sendQueryButton.disabled = false;
+const ableBtn = _=> {
+    $(sendQueryButton).addClass('pulse')
+    sendQueryButton.disabled = false;
+}
 
+
+function createTable(resultSet){
+
+    let thead = `<thead> <tr>`,
+        tbody = `<tbody>`;
+
+    if(resultSet?.success) {
+
+        console.log(Object.keys(resultSet?.response[0]));
+        // create thead
+            (Object.keys(resultSet?.response[0])).forEach(currentKey => thead += `<th> ${currentKey} </th>`);
+        thead += `</tr>`;
+
+
+        // create tbody
+        resultSet?.response.forEach(currentRecord => {
+            let row = `<tr>`;
+
+            Object.values(currentRecord).forEach(currentValue =>  row += `<td> ${currentValue} </td>`)
+
+            row += `</tr>`
+            tbody += row;
+        });
+
+        tbody += `</tbody>`;
+
+        table.innerHTML = (thead + tbody);
+
+    }else{
+        // console.log(resultSet)
+        $(table).hide();
+        setError()
+        disableBtn(null)
+        $('.errors').html(resultSet?.response);
+    }
+
+}
 
 
 /**
@@ -199,7 +245,7 @@ const ableBtn = _=> sendQueryButton.disabled = false;
  *  checker php per evitare sql injection (tutti le possibilità) (ok)
  * creazione della tabella di riferimento nella parte di pratica (ok)
  *  esempio di query nella parte di descriptions (ok)
- * TODO visualizzazioni dei dati ricevuti dal server
- * TODO restituire i dati al client in tabella
+ *  visualizzazioni dei dati ricevuti dal server (ok)
+ *  restituire i dati al client in tabella (ok)
  *
  * */

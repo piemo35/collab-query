@@ -151,7 +151,7 @@ class Checker{
     #[Pure]
     public function getErrorMSG(): string
     {
-        return  Checker::$ERROR_MSG . "<b> {$this->configurationDB->getErrorID()} </b>" ;
+        return  Checker::$ERROR_MSG . "<b> <mark> {$this->configurationDB->getErrorID()} </mark></b>" ;
     }
 
 
