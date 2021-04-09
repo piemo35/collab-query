@@ -146,7 +146,9 @@ class Checker{
      * @return string
      * @author Ahmed Mera
      */
-    #[Pure] public function getErrorMSG(): string
+
+    #[Pure]
+    public function getErrorMSG(): string
     {
         return  Checker::$ERROR_MSG . "<b> {$this->configurationDB->getErrorID()} </b>" ;
     }
