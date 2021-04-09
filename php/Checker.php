@@ -28,6 +28,7 @@ class Checker{
     public function __construct()
     {
         $this->configurationDB = new ConfigurationDB(user: "admin", pass: "1998", dataBasename: "sql_injection");
+
         try {
             $this->pdo = $this->configurationDB->connect();
         }catch (PDOException $exception){
