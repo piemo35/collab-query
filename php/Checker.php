@@ -15,7 +15,7 @@ use JetBrains\PhpStorm\Pure;
 
 class Checker{
 
-    public static string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/){2,}|(delimiter)/im';
+    public static string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
     public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
     private ConfigurationDB $configurationDB;
     private PDO $pdo;
@@ -62,13 +62,13 @@ class Checker{
             $statement->execute();
             $recordSet = $statement->fetchAll(PDO::FETCH_ASSOC);
 
-            $this->success = true;
+            $this->setSuccess(true);
 
             return $recordSet;
 
         }catch (PDOException $exception){
-            $this->success = false;
             $this->configurationDB->saveError($exception);
+            $this->setSuccess(false);
             return $this->getErrorMSG();
         }
 
@@ -121,7 +121,7 @@ class Checker{
      */
     public function sendData(mixed $data): bool|string
     {
-         return json_encode(['success' => $this->success, 'response' => $data]);
+         return json_encode(['success' => $this->isSuccess(), 'response' => $data]);
     }
 
 
@@ -208,6 +208,22 @@ class Checker{
     public function setPdo(PDO $pdo): void
     {
         $this->pdo = $pdo;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isSuccess(): bool
+    {
+        return $this->success;
+    }
+
+    /**
+     * @param bool $success
+     */
+    public function setSuccess(bool $success): void
+    {
+        $this->success = $success;
     }
 
 
