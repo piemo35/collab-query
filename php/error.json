@@ -1,1 +1,1282 @@
-{"606ba0680031f0":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"date":"05-04-2021 23:42:32"},"606ba0d53d0fe1":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"date":"05-04-2021 23:44:21"},"606ba0ed7a5d92":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"date":"05-04-2021 23:44:45"},"606ba105804f33":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"date":"05-04-2021 23:45:09"},"606ba12521eda4":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"date":"05-04-2021 23:45:41"},"606ba1f62d6f85":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":36,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"05-04-2021 23:49:10"},"606cbfac3f37d6":{"error_msg":"no post requestArray","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:08:12"},"606cbfff1d2037":{"error_msg":"no post requestArray","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:09:35"},"606cc031096e38":{"error_msg":"no post requestArray","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:10:25"},"606cc0455c8f89":{"error_msg":"no post request","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:10:45"},"606cc061a88f210":{"error_msg":"no post request or missed para req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:11:13"},"606cc07c0240511":{"error_msg":"no post request or missed para req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:11:40"},"606cc0a5d5fc612":{"error_msg":"no post request or missed para req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":35,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:12:21"},"606cc1d9aa04f13":{"error_msg":"no post request or missed para req{\"JSESSIONID\":\"D50A48BD78483C2C63A2A2FBE2C02FFA\",\"OAuth_Token_Request_State\":\"b307fe78-1ee0-41ae-9f33-a0e0cad5f301\",\"pma_lang\":\"it\",\"phpMyAdmin\":\"06a91f950cb5bd8a7419d1cbf2631b32\",\"_ga\":\"GA1.1.1096353750.1617661996\",\"pmaUser-1\":\"{\\\"iv\\\":\\\"Z6rRWKbViX6P4FpnHcFtew==\\\",\\\"mac\\\":\\\"dfbbaae5e51c068a984f216d014efd3d273e4bd2\\\",\\\"payload\\\":\\\"s4PEojKj9lPmua1Hthriog==\\\"}\",\"_ga_KTFEVMMH5J\":\"GS1.1.1617737819.3.1.1617739363.0\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:17:29"},"606cc22152e2814":{"error_msg":"no post request or missed para req[]","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:18:41"},"606cc29da8b3515":{"error_msg":"no post request or missed param req {\"JSESSIONID\":\"D50A48BD78483C2C63A2A2FBE2C02FFA\",\"OAuth_Token_Request_State\":\"b307fe78-1ee0-41ae-9f33-a0e0cad5f301\",\"pma_lang\":\"it\",\"phpMyAdmin\":\"06a91f950cb5bd8a7419d1cbf2631b32\",\"_ga\":\"GA1.1.1096353750.1617661996\",\"pmaUser-1\":\"{\\\"iv\\\":\\\"Z6rRWKbViX6P4FpnHcFtew==\\\",\\\"mac\\\":\\\"dfbbaae5e51c068a984f216d014efd3d273e4bd2\\\",\\\"payload\\\":\\\"s4PEojKj9lPmua1Hthriog==\\\"}\",\"_ga_KTFEVMMH5J\":\"GS1.1.1617737819.3.1.1617739363.0\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:20:45"},"606cc2ffeaa4816":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:22:23"},"606cc3568071b17":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:23:50"},"606cc36f972b518":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:24:15"},"606cc4066295e19":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:26:46"},"606cc40edcd0120":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:26:54"},"606cc4d5b79d521":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:30:13"},"606cc4fc7493022":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":37,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:30:52"},"606cc5f0c494523":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","error_line":38,"error_code":0,"trace":[],"ipv4":"172.17.0.1","date":"06-04-2021 20:34:56"},"606cc934980a224":{"error_msg":"no post request or missed param req {\"req\":\"argumentsq\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":150,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"badRequestResponse","class":"Checker","type":"->","args":[{"req":"argumentsq"}]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:48:52"},"606cca6ae356725":{"error_msg":"no post request or missed param req []","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":138,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:54:02"},"606cca87d89fe26":{"error_msg":"no post request or missed param req {\"hi\":\"bkh\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":138,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:54:31"},"606ccabe3ced327":{"error_msg":"no post request or missed param req {\"req\":\"bk\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":138,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:55:26"},"606ccad4275ed28":{"error_msg":"Bad args","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":150,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"badRequestResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:55:48"},"606ccaf0a610029":{"error_msg":"Bad args","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":150,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"badRequestResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:56:16"},"606ccb0e6196b30":{"error_msg":"Bad args","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":150,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"badRequestResponse","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 20:56:46"},"606ccc2de022931":{"error_msg":"Bad args {\"req\":\"argumentsq\"}","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":153,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"badRequestResponse","class":"Checker","type":"->","args":[{"req":"argumentsq"}]}],"ipv4":"172.17.0.1","date":"06-04-2021 21:01:33"},"606ccc509d91232":{"error_msg":"Bad args ","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":153,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"badRequestResponse","class":"Checker","type":"->","args":[{"req":"argumentsq"}]}],"ipv4":"172.17.0.1","date":"06-04-2021 21:02:08"},"606cccdfd0b9833":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":140,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"req":"bk"}]}],"ipv4":"172.17.0.1","date":"06-04-2021 21:04:31"},"606cd14269d8f34":{"error_msg":"Query dose NOT Valid. query --> SELECT * FROM arguments;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":44,"function":"executeQuery","class":"Checker","type":"->","args":["SELECT * FROM arguments;"]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":39,"function":"getArguments","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"06-04-2021 21:23:14"},"606e109a3af5f35":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":157,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","phpMyAdmin":"02a62246fcb7fc03d1c2f0ae5131b701","pmaUser-1":"{\"iv\":\"FqDPrSbL8bomvKL+dP1Hyw==\",\"mac\":\"3dd2f0539908f37eeab169a0f511cf57d3621164\",\"payload\":\"h4NfAPaghuFe6Me0p5rDPA==\"}","_ga_KTFEVMMH5J":"GS1.1.1617825944.6.0.1617825944.0"}]}],"ipv4":"172.17.0.1","date":"07-04-2021 20:05:46"},"606e10cd3532036":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":157,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","phpMyAdmin":"02a62246fcb7fc03d1c2f0ae5131b701","pmaUser-1":"{\"iv\":\"FqDPrSbL8bomvKL+dP1Hyw==\",\"mac\":\"3dd2f0539908f37eeab169a0f511cf57d3621164\",\"payload\":\"h4NfAPaghuFe6Me0p5rDPA==\"}","_ga_KTFEVMMH5J":"GS1.1.1617825944.6.0.1617825944.0"}]}],"ipv4":"172.17.0.1","date":"07-04-2021 20:06:37"},"606f7f4cf1c3c37":{"error_msg":"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","error_line":56,"error_code":2002,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","line":56,"function":"__construct","class":"PDO","type":"->","args":["mysql:host=MySQL;port=3306;dbname=sql_injection","admin","1998"]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":31,"function":"connect","class":"ConfigurationDB","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":24,"function":"__construct","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:10:20"},"606f7f571188838":{"error_msg":"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","error_line":56,"error_code":2002,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","line":56,"function":"__construct","class":"PDO","type":"->","args":["mysql:host=MySQL;port=3306;dbname=sql_injection","admin","1998"]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":31,"function":"connect","class":"ConfigurationDB","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":24,"function":"__construct","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:10:31"},"606f7f571308139":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":157,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","phpMyAdmin":"22455688d7fcad704150bd2401b4013f","pmaUser-1":"{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}","pmaAuth-1":"{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}","_ga_KTFEVMMH5J":"GS1.1.1617919820.7.0.1617919829.0"}]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:10:31"},"606f7f64deeb040":{"error_msg":"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","error_line":56,"error_code":2002,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php","line":56,"function":"__construct","class":"PDO","type":"->","args":["mysql:host=MySQL;port=3306;dbname=sql_injection","admin","1998"]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":31,"function":"connect","class":"ConfigurationDB","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":24,"function":"__construct","class":"Checker","type":"->","args":[]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:10:44"},"606f7f64e131f41":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":157,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","phpMyAdmin":"22455688d7fcad704150bd2401b4013f","pmaUser-1":"{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}","pmaAuth-1":"{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}","_ga_KTFEVMMH5J":"GS1.1.1617919820.7.0.1617919829.0"}]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:10:44"},"606f81d77fcd142":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":162,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","phpMyAdmin":"22455688d7fcad704150bd2401b4013f","pmaUser-1":"{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}","pmaAuth-1":"{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}","_ga_KTFEVMMH5J":"GS1.1.1617919820.7.0.1617919829.0"}]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:21:11"},"606f84f65468543":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:34:30"},"606f852184ff544":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:35:13"},"606f8532b3fe645":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:35:30"},"606f856a9779746":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:36:26"},"606f85a153abd47":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":32,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:37:21"},"606f864fb47c648":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:40:15"},"606f869f91fee49":{"error_msg":"Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":59,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":33,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:41:35"},"606f8a71789ae50":{"error_msg":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql_injection.persone' doesn't exist","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":62,"error_code":"42S02","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":62,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:57:53"},"606f8ac938fd351":{"error_msg":"SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":62,"error_code":"42000","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":62,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":38,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"]}],"ipv4":"172.17.0.1","date":"08-04-2021 22:59:21"},"606f8ce92172a52":{"error_msg":"SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":62,"error_code":"42000","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":62,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"]}],"ipv4":"172.17.0.1","date":"08-04-2021 23:08:25"},"6070d728a749553":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genders' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select name, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:37:28"},"6070d7a60b0df54":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:39:34"},"6070d7fb1c11955":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:40:59"},"6070da1fc9dbe56":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:50:07"},"6070da5c45aa157":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:51:08"},"6070da7b6348d58":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:51:39"},"6070daa4c3b5f59":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:52:20"},"6070dad8845b660":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:53:12"},"6070db06e3eaa61":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:53:58"},"6070db728977f62":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:55:46"},"6070dbe5603f963":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 22:57:41"},"6070dcfe66f3f64":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 23:02:22"},"6070dd2f7c01e65":{"error_msg":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":63,"error_code":"42S22","trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","line":63,"function":"execute","class":"PDOStatement","type":"->","args":[]},{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":37,"function":"executeQuery","class":"Checker","type":"->","args":["select names, email, genders from students"]}],"ipv4":"172.17.0.1","date":"09-04-2021 23:03:11"}}
+{
+  "606ba0680031f0": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "date": "05-04-2021 23:42:32"
+  },
+  "606ba0d53d0fe1": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "date": "05-04-2021 23:44:21"
+  },
+  "606ba0ed7a5d92": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "date": "05-04-2021 23:44:45"
+  },
+  "606ba105804f33": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "date": "05-04-2021 23:45:09"
+  },
+  "606ba12521eda4": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "date": "05-04-2021 23:45:41"
+  },
+  "606ba1f62d6f85": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 36,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "05-04-2021 23:49:10"
+  },
+  "606cbfac3f37d6": {
+    "error_msg": "no post requestArray",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:08:12"
+  },
+  "606cbfff1d2037": {
+    "error_msg": "no post requestArray",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:09:35"
+  },
+  "606cc031096e38": {
+    "error_msg": "no post requestArray",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:10:25"
+  },
+  "606cc0455c8f89": {
+    "error_msg": "no post request",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:10:45"
+  },
+  "606cc061a88f210": {
+    "error_msg": "no post request or missed para req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:11:13"
+  },
+  "606cc07c0240511": {
+    "error_msg": "no post request or missed para req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:11:40"
+  },
+  "606cc0a5d5fc612": {
+    "error_msg": "no post request or missed para req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 35,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:12:21"
+  },
+  "606cc1d9aa04f13": {
+    "error_msg": "no post request or missed para req{\"JSESSIONID\":\"D50A48BD78483C2C63A2A2FBE2C02FFA\",\"OAuth_Token_Request_State\":\"b307fe78-1ee0-41ae-9f33-a0e0cad5f301\",\"pma_lang\":\"it\",\"phpMyAdmin\":\"06a91f950cb5bd8a7419d1cbf2631b32\",\"_ga\":\"GA1.1.1096353750.1617661996\",\"pmaUser-1\":\"{\\\"iv\\\":\\\"Z6rRWKbViX6P4FpnHcFtew==\\\",\\\"mac\\\":\\\"dfbbaae5e51c068a984f216d014efd3d273e4bd2\\\",\\\"payload\\\":\\\"s4PEojKj9lPmua1Hthriog==\\\"}\",\"_ga_KTFEVMMH5J\":\"GS1.1.1617737819.3.1.1617739363.0\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:17:29"
+  },
+  "606cc22152e2814": {
+    "error_msg": "no post request or missed para req[]",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:18:41"
+  },
+  "606cc29da8b3515": {
+    "error_msg": "no post request or missed param req {\"JSESSIONID\":\"D50A48BD78483C2C63A2A2FBE2C02FFA\",\"OAuth_Token_Request_State\":\"b307fe78-1ee0-41ae-9f33-a0e0cad5f301\",\"pma_lang\":\"it\",\"phpMyAdmin\":\"06a91f950cb5bd8a7419d1cbf2631b32\",\"_ga\":\"GA1.1.1096353750.1617661996\",\"pmaUser-1\":\"{\\\"iv\\\":\\\"Z6rRWKbViX6P4FpnHcFtew==\\\",\\\"mac\\\":\\\"dfbbaae5e51c068a984f216d014efd3d273e4bd2\\\",\\\"payload\\\":\\\"s4PEojKj9lPmua1Hthriog==\\\"}\",\"_ga_KTFEVMMH5J\":\"GS1.1.1617737819.3.1.1617739363.0\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:20:45"
+  },
+  "606cc2ffeaa4816": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:22:23"
+  },
+  "606cc3568071b17": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:23:50"
+  },
+  "606cc36f972b518": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:24:15"
+  },
+  "606cc4066295e19": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:26:46"
+  },
+  "606cc40edcd0120": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:26:54"
+  },
+  "606cc4d5b79d521": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:30:13"
+  },
+  "606cc4fc7493022": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 37,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:30:52"
+  },
+  "606cc5f0c494523": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+    "error_line": 38,
+    "error_code": 0,
+    "trace": [],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:34:56"
+  },
+  "606cc934980a224": {
+    "error_msg": "no post request or missed param req {\"req\":\"argumentsq\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 150,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "argumentsq"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:48:52"
+  },
+  "606cca6ae356725": {
+    "error_msg": "no post request or missed param req []",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 138,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:54:02"
+  },
+  "606cca87d89fe26": {
+    "error_msg": "no post request or missed param req {\"hi\":\"bkh\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 138,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:54:31"
+  },
+  "606ccabe3ced327": {
+    "error_msg": "no post request or missed param req {\"req\":\"bk\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 138,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:55:26"
+  },
+  "606ccad4275ed28": {
+    "error_msg": "Bad args",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 150,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:55:48"
+  },
+  "606ccaf0a610029": {
+    "error_msg": "Bad args",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 150,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:56:16"
+  },
+  "606ccb0e6196b30": {
+    "error_msg": "Bad args",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 150,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 20:56:46"
+  },
+  "606ccc2de022931": {
+    "error_msg": "Bad args {\"req\":\"argumentsq\"}",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 153,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "argumentsq"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 21:01:33"
+  },
+  "606ccc509d91232": {
+    "error_msg": "Bad args ",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 153,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "badRequestResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "argumentsq"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 21:02:08"
+  },
+  "606cccdfd0b9833": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 140,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "bk"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 21:04:31"
+  },
+  "606cd14269d8f34": {
+    "error_msg": "Query dose NOT Valid. query --> SELECT * FROM arguments;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 44,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "SELECT * FROM arguments;"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "getArguments",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "06-04-2021 21:23:14"
+  },
+  "606e109a3af5f35": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "02a62246fcb7fc03d1c2f0ae5131b701",
+            "pmaUser-1": "{\"iv\":\"FqDPrSbL8bomvKL+dP1Hyw==\",\"mac\":\"3dd2f0539908f37eeab169a0f511cf57d3621164\",\"payload\":\"h4NfAPaghuFe6Me0p5rDPA==\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617825944.6.0.1617825944.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "07-04-2021 20:05:46"
+  },
+  "606e10cd3532036": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "02a62246fcb7fc03d1c2f0ae5131b701",
+            "pmaUser-1": "{\"iv\":\"FqDPrSbL8bomvKL+dP1Hyw==\",\"mac\":\"3dd2f0539908f37eeab169a0f511cf57d3621164\",\"payload\":\"h4NfAPaghuFe6Me0p5rDPA==\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617825944.6.0.1617825944.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "07-04-2021 20:06:37"
+  },
+  "606f7f4cf1c3c37": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:20"
+  },
+  "606f7f571188838": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:31"
+  },
+  "606f7f571308139": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:31"
+  },
+  "606f7f64deeb040": {
+    "error_msg": "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 2002,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          "1998"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 31,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:44"
+  },
+  "606f7f64e131f41": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 157,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:10:44"
+  },
+  "606f81d77fcd142": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 162,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "phpMyAdmin": "22455688d7fcad704150bd2401b4013f",
+            "pmaUser-1": "{\"iv\":\"DRIvUK6dkf+Y5MdygMcWlA==\",\"mac\":\"c334a620a2ef4a268a231187cfac324dd36f0f4b\",\"payload\":\"Xue5Cd1\\\/mLtS6ZBlAJdsQQ==\"}",
+            "pmaAuth-1": "{\"iv\":\"WpWXYQiq9RBzush0mZlypg==\",\"mac\":\"a3c14a1c05406a9622d7d32728a52c29b382d813\",\"payload\":\"zxk6Q7uZdRCAOQKWhlMW2nHANiL094ugr1xscuZT0mE=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1617919820.7.0.1617919829.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:21:11"
+  },
+  "606f84f65468543": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:34:30"
+  },
+  "606f852184ff544": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:35:13"
+  },
+  "606f8532b3fe645": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:35:30"
+  },
+  "606f856a9779746": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso = &#39;M&#39;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:36:26"
+  },
+  "606f85a153abd47": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 32,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#39;M&#39;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:37:21"
+  },
+  "606f864fb47c648": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:40:15"
+  },
+  "606f869f91fee49": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 59,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 33,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE &#34;M&#34;"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:41:35"
+  },
+  "606f8a71789ae50": {
+    "error_msg": "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql_injection.persone' doesn't exist",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42S02",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW nome_view AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:57:53"
+  },
+  "606f8ac938fd351": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 22:59:21"
+  },
+  "606f8ce92172a52": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 62,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 62,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW alert('hi') AS SELECT nome, cognome FROM persone WHERE sesso LIKE 'M'"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "08-04-2021 23:08:25"
+  },
+  "6070d728a749553": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genders' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select name, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:37:28"
+  },
+  "6070d7a60b0df54": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:39:34"
+  },
+  "6070d7fb1c11955": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:40:59"
+  },
+  "6070da1fc9dbe56": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:50:07"
+  },
+  "6070da5c45aa157": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:51:08"
+  },
+  "6070da7b6348d58": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:51:39"
+  },
+  "6070daa4c3b5f59": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:52:20"
+  },
+  "6070dad8845b660": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:53:12"
+  },
+  "6070db06e3eaa61": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:53:58"
+  },
+  "6070db728977f62": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:55:46"
+  },
+  "6070dbe5603f963": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 22:57:41"
+  },
+  "6070dcfe66f3f64": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 23:02:22"
+  },
+  "6070dd2f7c01e65": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 63,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 63,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 37,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select names, email, genders from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "09-04-2021 23:03:11"
+  }
+}
