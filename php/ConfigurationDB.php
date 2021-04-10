@@ -68,24 +68,28 @@ class ConfigurationDB{
     {
         $file = __DIR__.'/error.json';
 
-        $this->checkFile($file);
+        $response = $this->checkFile($file);
 
-        $ERROR = (array)json_decode(file_get_contents($file)); //get content from file
+        if ($response != true) {
 
-        $this->errorID = uniqid() . count($ERROR); // id error
+            $ERROR = (array)json_decode(file_get_contents($file)); //get content from file
 
-        $ERROR[$this->errorID] =  array(
-            'error_msg'  => $e->getMessage(),
-            'error_file' => $e->getFile(),
-            'error_line' => $e->getLine(),
-            'error_code' => $e->getCode(),
-            'trace'      => $e->getTrace(),
-            'ipv4'       => $_SERVER['REMOTE_ADDR'],
-            'date'       => date("d-m-Y H:i:s")
-        );
+            $this->errorID = uniqid() . count($ERROR); // id error
 
-        return file_put_contents($file, json_encode($ERROR),  LOCK_EX); // save on file
+            $ERROR[$this->errorID] = array(
+                'error_msg' => $e->getMessage(),
+                'error_file' => $e->getFile(),
+                'error_line' => $e->getLine(),
+                'error_code' => $e->getCode(),
+                'trace' => $e->getTrace(),
+                'ipv4' => $_SERVER['REMOTE_ADDR'],
+                'date' => date("d-m-Y H:i:s")
+            );
 
+            return file_put_contents($file, json_encode($ERROR), LOCK_EX); // save on file
+        }
+
+        return false;
     }
 
 
