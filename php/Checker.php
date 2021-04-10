@@ -18,7 +18,7 @@ class Checker{
     public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
     protected string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
     private ConfigurationDB $configurationDB;
-    private PDO $pdo;
+    private ? PDO $pdo;
     private bool $success = false;
 
 
@@ -32,6 +32,7 @@ class Checker{
         try {
             $this->pdo = $this->configurationDB->connect();
         }catch (PDOException $exception){
+            $this->pdo = null;
             $this->configurationDB->saveError($exception);
         }
     }
@@ -182,6 +183,19 @@ class Checker{
 
 
     /**
+     * function to print json response
+     * @param array $args
+     * @return string
+     */
+    public function serviceUnavailable(array $args): string
+    {
+        $this->configurationDB->saveError(new Exception("Service Unavailable errorCode ---> {$this->configurationDB->getErrorID()}"));
+        http_response_code(503);
+        return '{"success": false, "error": {"status" : 503, "message": "Service Unavailable"}}';
+    }
+
+
+    /**
      * @return ConfigurationDB
      */
     public function getConfigurationDB(): ConfigurationDB
@@ -198,9 +212,9 @@ class Checker{
     }
 
     /**
-     * @return PDO
+     * @return PDO|null
      */
-    public function getPdo(): PDO
+    public function getPdo(): PDO | null
     {
         return $this->pdo;
     }

@@ -37,21 +37,23 @@ const keywords = [
     "ORDER BY",
     "HAVING",
 
-]
+],
 
-const sendQueryButton    = document.getElementById('sendQuery'),
-      selectElement      = $('select'),
-      descriptions       = $('.description'),
-      textAreaElement    = $('textarea'),
-      suggestionsElement = $('.suggestion'),
-      file               = "./php/manageData.php",
-     table               = document.getElementById("table");
+  sendQueryButton    = document.getElementById('sendQuery'),
+  selectElement      = $('select'),
+  descriptions       = $('.description'),
+  textAreaElement    = $('textarea'),
+  suggestionsElement = $('.suggestion'),
+  file               = "./php/manageData.php",
+ table               = document.getElementById("table");
 
 
 
 
 // all'avvio facciamo una chiamata al server per avere tutti gli argomenti
-$.post(file, {"req" : "arguments"}, data => populate(JSON.parse(data)));
+$.post(file, {"req" : "arguments"})
+    .done(data => populate(JSON.parse(data)))
+    .fail(data => populate(JSON.parse(data?.responseText)));
 
 
 /**
@@ -63,7 +65,7 @@ function populate(data){
     // console.log(Object.keys(data[0]))
     // console.log(data);
 
-    if(data?.success) {
+    if(data !== null && data?.success) {
 
         // create select
         (data?.response).forEach(currentElement => {
@@ -239,17 +241,3 @@ function createTable(resultSet){
 
 }
 
-
-/**
- * list of to do:
- *  chiedere tutti gli argomenti al server e poi metterli nella tendina (OK)
- *  onChange la tendina dobbiamo visualizzare la descrizioni relativa all'argomento (OK)
- *  mandare i dati dal client al server (la query) (ok)
- *  controllare lato cliente sql injection (tutti le possibilità) (ok)
- *  checker php per evitare sql injection (tutti le possibilità) (ok)
- * creazione della tabella di riferimento nella parte di pratica (ok)
- *  esempio di query nella parte di descriptions (ok)
- *  visualizzazioni dei dati ricevuti dal server (ok)
- *  restituire i dati al client in tabella (ok)
- *
- * */

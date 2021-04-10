@@ -25,18 +25,23 @@ $checker = new Checker(); // instance object
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || !$checker->isEmptyOrNull($input))){
 
-    $args = array( 'req' => FILTER_SANITIZE_ENCODED,
+    $args = array( 'req' => FILTER_SANITIZE_STRING,
                   'query' => array('filter' => FILTER_SANITIZE_STRING, 'flags' => FILTER_FLAG_NO_ENCODE_QUOTES)
     );
 
 
     $data = filter_var_array(array: (count($_POST) ? $_POST : $input), options: $args); // filter the post FILTER_FLAG_NO_ENCODE_QUOTES
 
-    echo match ($data['req']) {
-        'arguments' => $checker->sendData($checker->getArguments()),
-        'query' => $checker->sendData($checker->executeQuery($data['query'])),
-        default => $checker->badRequestResponse($data)
-    };
+
+    if (!$checker->isEmptyOrNull($checker->getPdo())) {
+        echo match ($data['req']) {
+            'arguments' => $checker->sendData($checker->getArguments()),
+            'query'     => $checker->sendData($checker->executeQuery($data['query'])),
+            default     => $checker->badRequestResponse($data)
+        };
+    }else{
+        echo $checker->serviceUnavailable($data);
+    }
 
 } else{
 
