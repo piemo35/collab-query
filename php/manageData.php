@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['req']) || !$checker->
     if (!$checker->isEmptyOrNull($checker->getPdo())) {
         echo match ($data['req']) {
             'arguments' => $checker->sendData($checker->getArguments()),
-            'query'     => $checker->sendData($checker->executeQuery(trim($data['query']))),
+            'query'     => $checker->sendData($checker->execute(trim($data['query']))),
             default     => $checker->badRequestResponse($data)
         };
     }else{

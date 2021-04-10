@@ -144,5 +144,565 @@
     ],
     "ipv4": "172.17.0.1",
     "date": "10-04-2021 20:11:30"
+  },
+  "6071f333f1e0e5": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sesso' in 'where clause'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 66,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 66,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsView AS SELECT name, surname FROM students WHERE sesso = \"M\""
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 20:49:23"
+  },
+  "6071f347360256": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 67,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 67,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsView AS SELECT name, surname FROM students WHERE gender = \"M\""
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 20:49:43"
+  },
+  "6071f365b37217": {
+    "error_msg": "SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'studentsView' already exists",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 66,
+    "error_code": "42S01",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 66,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsView AS SELECT name, surname FROM students WHERE gender = \"m\""
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 20:50:13"
+  },
+  "6071f8935529b8": {
+    "error_msg": "Operazione fallita --> SELECT * FROM arguments",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 67,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 51,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "SELECT * FROM arguments"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 38,
+        "function": "getArguments",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:12:19"
+  },
+  "6071f89618b1f9": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 67,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 67,
+        "function": "exec",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsName AS SELECT nome FROM students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsName AS SELECT nome FROM students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:12:22"
+  },
+  "6071fa015b54e10": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 68,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 68,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNames AS SELECT nome FROM students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:18:25"
+  },
+  "6071fa2409fbc11": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 69,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 69,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNames AS SELECT name FROM students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNames AS SELECT name FROM students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:19:00"
+  },
+  "6071faabd103512": {
+    "error_msg": "Query dose NOT Valid. query --> CREATE VIEW studentsNome AS SELECT name FROM students",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 98,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "execQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNome AS SELECT name FROM students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNome AS SELECT name FROM students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:21:15"
+  },
+  "6071faed8e39b13": {
+    "error_msg": "SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'studentsNome' already exists",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 98,
+    "error_code": "42S01",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 98,
+        "function": "exec",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNome AS SELECT name FROM students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "execQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNome AS SELECT name FROM students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "CREATE VIEW studentsNome AS SELECT name FROM students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:22:21"
+  },
+  "6071fc2425c5314": {
+    "error_msg": "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql_injection.studentsNamess' doesn't exist",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 68,
+    "error_code": "42S02",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 68,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select * from studentsNamess"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select * from studentsNamess"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:27:32"
+  },
+  "6071fc99bdd1415": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 69,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 69,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova as select * from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:29:29"
+  },
+  "6071fcc6ed77116": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 69,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 69,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova2 as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova2 as select * from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:30:14"
+  },
+  "6071fd112cd0f17": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 69,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 69,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 121,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova3 as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova3 as select * from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:31:29"
+  },
+  "6071fe74cbe7118": {
+    "error_msg": "SQLSTATE[HY000]: General error",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 69,
+    "error_code": "HY000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 69,
+        "function": "fetchAll",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": [
+          2
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 122,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova4 as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova4 as select * from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:37:24"
+  },
+  "6071ffbd3d0a919": {
+    "error_msg": "SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'prova5' already exists",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 97,
+    "error_code": "42S01",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 97,
+        "function": "exec",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "create view prova5 as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 119,
+        "function": "execQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova5 as select * from students"
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view prova5 as select * from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:42:53"
+  },
+  "607201ac4506320": {
+    "error_msg": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome' in 'field list'",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 97,
+    "error_code": "42S22",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 97,
+        "function": "exec",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "create view mera as select nome from students where name like \"m%\""
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 120,
+        "function": "execQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view mera as select nome from students where name like \"m%\""
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "execute",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "create view mera as select nome from students where name like \"m%\""
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 21:51:08"
   }
 }

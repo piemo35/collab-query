@@ -207,12 +207,14 @@ function createTable(resultSet){
 
     if(resultSet?.success) {
 
-        // console.log(Object.keys(resultSet?.response[0]));
-        $(table).show();
+        if (Array.isArray(resultSet?.response)){
+
+            // console.log(Object.keys(resultSet?.response[0]));
+            $(table).show();
         $('.errors').hide();
 
         // create thead
-            (Object.keys(resultSet?.response[0])).forEach(currentKey => thead += `<th> ${currentKey} </th>`);
+        (Object.keys(resultSet?.response[0])).forEach(currentKey => thead += `<th> ${currentKey} </th>`);
         thead += `</tr>`;
 
 
@@ -220,7 +222,7 @@ function createTable(resultSet){
         resultSet?.response.forEach(currentRecord => {
             let row = `<tr>`;
 
-            Object.values(currentRecord).forEach(currentValue =>  row += `<td> ${currentValue} </td>`)
+            Object.values(currentRecord).forEach(currentValue => row += `<td> ${currentValue} </td>`)
 
             row += `</tr>`
             tbody += row;
@@ -230,6 +232,10 @@ function createTable(resultSet){
 
         table.innerHTML = (thead + tbody);
 
+    }else {
+        $(table).hide();
+        $('.errors').html(resultSet?.response).show();
+    }
 
     }else{
         // console.log(resultSet)

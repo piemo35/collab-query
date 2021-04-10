@@ -16,7 +16,9 @@ use JetBrains\PhpStorm\Pure;
 class Checker{
 
     public static string $ERROR_MSG = "Qualcosa é andato storto, riprova oppure comunica all'amministratore il codice di errore  ";
+    public static string $SUCCESS_MSG = "L'operazione é andata a buon fine ;)";
     protected string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
+    protected string $patternSql = '/(insert\s)|(update\s)|(create\s)/im';
     private ConfigurationDB $configurationDB;
     private ? PDO $pdo;
     private bool $success = false;
@@ -79,6 +81,47 @@ class Checker{
     }
 
 
+
+    /**
+     * helper function to execute the query and his args if exist
+     * @param string $query
+     * @return array|string|null
+     * @author Ahmed Mera
+     */
+    public function execQuery(string $query): array | string | null  {
+        try{
+
+            if(!$this->isValidData($query))
+                throw new PDOException("Query dose NOT Valid. query --> " . $query);
+
+            $this->pdo->exec(statement: $query);
+
+
+            $this->setSuccess(true);
+
+            return self::$SUCCESS_MSG;
+
+        }catch (PDOException $exception){
+            $this->configurationDB->saveError($exception);
+            $this->setSuccess(false);
+            return $this->getErrorMSG();
+        }
+
+    }
+
+
+    /**
+     * function to execute query
+     * @param string $query
+     * @return array|string|null
+     * @author Ahmed Mera
+     */
+    public function execute(string $query):  array | string | null {
+        return ($this->isSelectStatement($query)) ? $this->executeQuery($query): $this->execQuery($query);
+    }
+
+
+
     /**
      * function to check if data is valid or not
      * @param string $data
@@ -92,6 +135,15 @@ class Checker{
         return !preg_match($this->pattern, $data);
     }
 
+
+    /**
+     * function to exec query in another mode
+     * @param string $data
+     * @return bool
+     */
+    public function isSelectStatement(string $data): bool {
+        return !preg_match($this->patternSql, $data);
+    }
 
     /**
      * helper function to check if is empty or null
@@ -244,6 +296,41 @@ class Checker{
     {
         $this->success = $success;
     }
+
+
+    /**
+     * @return string
+     */
+    public function getPattern(): string
+    {
+        return $this->pattern;
+    }
+
+    /**
+     * @param string $pattern
+     */
+    public function setPattern(string $pattern): void
+    {
+        $this->pattern = $pattern;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPatternSql(): string
+    {
+        return $this->patternSql;
+    }
+
+    /**
+     * @param string $patternSql
+     */
+    public function setPatternSql(string $patternSql): void
+    {
+        $this->patternSql = $patternSql;
+    }
+
+
 
 
 
