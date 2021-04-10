@@ -68,22 +68,20 @@ class ConfigurationDB{
     {
         $file = __DIR__.'/error.json';
 
-        $response = $this->checkFile($file);
-
-        if ($response != true) {
+        if ($this->isExistFile($file)) {
 
             $ERROR = (array)json_decode(file_get_contents($file)); //get content from file
 
             $this->errorID = uniqid() . count($ERROR); // id error
 
             $ERROR[$this->errorID] = array(
-                'error_msg' => $e->getMessage(),
+                'error_msg'  => $e->getMessage(),
                 'error_file' => $e->getFile(),
                 'error_line' => $e->getLine(),
                 'error_code' => $e->getCode(),
-                'trace' => $e->getTrace(),
-                'ipv4' => $_SERVER['REMOTE_ADDR'],
-                'date' => date("d-m-Y H:i:s")
+                'trace'      => $e->getTrace(),
+                'ipv4'       => $_SERVER['REMOTE_ADDR'],
+                'date'       => date("d-m-Y H:i:s")
             );
 
             return file_put_contents($file, json_encode($ERROR), LOCK_EX); // save on file
@@ -96,17 +94,16 @@ class ConfigurationDB{
     /**
      * helper function to check if file is exist or not and create it if not
      * @param string $file
-     * @return bool | string
+     * @return bool
      * @author Ahmed Mera
      */
-    private function checkFile(string $file): bool | string
+    private function isExistFile(string $file): bool
     {
         if(! file_exists($file)) {
             touch($file); // create file
            return chmod($file, 0766); // change permission all for owner, read and write for other
-        }else{
-            return "file is exist.";
         }
+        return true;
     }
 
 

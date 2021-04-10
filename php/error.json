@@ -1,1 +1,148 @@
-{"6071d21832e860":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":166,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":48,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","FeatureOverrides_enableFeatures":"","FeatureOverrides_disableFeatures":"","phpMyAdmin":"3e14109d46314346e80ce8e72733c215","pmaUser-1":"{\"iv\":\"BqZtlfvmbpuzb8RHTQzuOA==\",\"mac\":\"923c79fc8393fe5dd413b40b3682ef16d2927d4c\",\"payload\":\"z\\\/\\\/Ogi3CRodmDQIj9y3D\\\/Q==\"}","pmaAuth-1":"{\"iv\":\"KbglSggyENqzwGLMS0X9qA==\",\"mac\":\"926a266dbad9db599eb618d7f9ed1c2bef2fcdf8\",\"payload\":\"m2s86bfZ8Atw+n3OgANo673YoaqDyS33m17s27MppI4=\"}","_ga_KTFEVMMH5J":"GS1.1.1618067370.9.1.1618071166.0"}]}],"ipv4":"172.17.0.1","date":"10-04-2021 16:28:08"},"6071d365848a41":{"error_msg":"no post request or missed param req","error_file":"\/var\/www\/html\/MySQL_PHP\/php\/Checker.php","error_line":166,"error_code":0,"trace":[{"file":"\/var\/www\/html\/MySQL_PHP\/php\/manageData.php","line":49,"function":"forbiddenResponse","class":"Checker","type":"->","args":[{"JSESSIONID":"D50A48BD78483C2C63A2A2FBE2C02FFA","OAuth_Token_Request_State":"b307fe78-1ee0-41ae-9f33-a0e0cad5f301","pma_lang":"it","_ga":"GA1.1.1096353750.1617661996","FeatureOverrides_enableFeatures":"","FeatureOverrides_disableFeatures":"","phpMyAdmin":"3e14109d46314346e80ce8e72733c215","pmaUser-1":"{\"iv\":\"BqZtlfvmbpuzb8RHTQzuOA==\",\"mac\":\"923c79fc8393fe5dd413b40b3682ef16d2927d4c\",\"payload\":\"z\\\/\\\/Ogi3CRodmDQIj9y3D\\\/Q==\"}","pmaAuth-1":"{\"iv\":\"KbglSggyENqzwGLMS0X9qA==\",\"mac\":\"926a266dbad9db599eb618d7f9ed1c2bef2fcdf8\",\"payload\":\"m2s86bfZ8Atw+n3OgANo673YoaqDyS33m17s27MppI4=\"}","_ga_KTFEVMMH5J":"GS1.1.1618067370.9.1.1618072179.0"}]}],"ipv4":"172.17.0.1","date":"10-04-2021 16:33:41"}}
+{
+  "6071d21832e860": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 166,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 48,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "FeatureOverrides_enableFeatures": "",
+            "FeatureOverrides_disableFeatures": "",
+            "phpMyAdmin": "3e14109d46314346e80ce8e72733c215",
+            "pmaUser-1": "{\"iv\":\"BqZtlfvmbpuzb8RHTQzuOA==\",\"mac\":\"923c79fc8393fe5dd413b40b3682ef16d2927d4c\",\"payload\":\"z\\\/\\\/Ogi3CRodmDQIj9y3D\\\/Q==\"}",
+            "pmaAuth-1": "{\"iv\":\"KbglSggyENqzwGLMS0X9qA==\",\"mac\":\"926a266dbad9db599eb618d7f9ed1c2bef2fcdf8\",\"payload\":\"m2s86bfZ8Atw+n3OgANo673YoaqDyS33m17s27MppI4=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1618067370.9.1.1618071166.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 16:28:08"
+  },
+  "6071d365848a41": {
+    "error_msg": "no post request or missed param req",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 166,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 49,
+        "function": "forbiddenResponse",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "JSESSIONID": "D50A48BD78483C2C63A2A2FBE2C02FFA",
+            "OAuth_Token_Request_State": "b307fe78-1ee0-41ae-9f33-a0e0cad5f301",
+            "pma_lang": "it",
+            "_ga": "GA1.1.1096353750.1617661996",
+            "FeatureOverrides_enableFeatures": "",
+            "FeatureOverrides_disableFeatures": "",
+            "phpMyAdmin": "3e14109d46314346e80ce8e72733c215",
+            "pmaUser-1": "{\"iv\":\"BqZtlfvmbpuzb8RHTQzuOA==\",\"mac\":\"923c79fc8393fe5dd413b40b3682ef16d2927d4c\",\"payload\":\"z\\\/\\\/Ogi3CRodmDQIj9y3D\\\/Q==\"}",
+            "pmaAuth-1": "{\"iv\":\"KbglSggyENqzwGLMS0X9qA==\",\"mac\":\"926a266dbad9db599eb618d7f9ed1c2bef2fcdf8\",\"payload\":\"m2s86bfZ8Atw+n3OgANo673YoaqDyS33m17s27MppI4=\"}",
+            "_ga_KTFEVMMH5J": "GS1.1.1618067370.9.1.1618072179.0"
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 16:33:41"
+  },
+  "6071e8c7e11872": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from students' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 64,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 64,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select + from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 18:04:55"
+  },
+  "6071e9131c5b03": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from students' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 64,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 64,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select + from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 18:06:11"
+  },
+  "6071ea5248e2a4": {
+    "error_msg": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from students' at line 1",
+    "error_file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+    "error_line": 66,
+    "error_code": "42000",
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/Checker.php",
+        "line": 66,
+        "function": "execute",
+        "class": "PDOStatement",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/MySQL_PHP\/php\/manageData.php",
+        "line": 39,
+        "function": "executeQuery",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          "select + from students"
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "10-04-2021 20:11:30"
+  }
+}

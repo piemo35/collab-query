@@ -15,7 +15,7 @@ use JetBrains\PhpStorm\Pure;
 
 class Checker{
 
-    public static string $ERROR_MSG = "Qualcosa andato storto, riprova ancora oppure comunica l'amministratore col codice di error  ";
+    public static string $ERROR_MSG = "Qualcosa é andato storto, riprova oppure comunica all'amministratore il codice di errore  ";
     protected string $pattern = '/[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/im';
     private ConfigurationDB $configurationDB;
     private ? PDO $pdo;
@@ -27,6 +27,8 @@ class Checker{
      */
     public function __construct()
     {
+        date_default_timezone_set("Europe/Rome");
+
         $this->configurationDB = new ConfigurationDB(user: "admin", pass: "1998", dataBasename: "sql_injection");
 
         try {
