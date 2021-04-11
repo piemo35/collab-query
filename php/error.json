@@ -704,5 +704,188 @@
     ],
     "ipv4": "172.17.0.1",
     "date": "10-04-2021 21:51:08"
+  },
+  "60730378a80c321": {
+    "error_msg": "SQLSTATE[HY000] [1045] Access denied for user 'mera'@'172.18.0.3' (using password: YES)",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 1045,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "mera",
+          ""
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+        "line": 37,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:11:04"
+  },
+  "60730378aaf7222": {
+    "error_msg": "Service Unavailable errorCode ---> 60730378a80c321",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+    "error_line": 246,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 43,
+        "function": "serviceUnavailable",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "arguments",
+            "query": null
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:11:04"
+  },
+  "607303a37939223": {
+    "error_msg": "SQLSTATE[HY000] [1045] Access denied for user 'admin'@'172.18.0.3' (using password: NO)",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 1045,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          ""
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+        "line": 37,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:11:47"
+  },
+  "607303a37b96924": {
+    "error_msg": "Service Unavailable errorCode ---> 607303a37939223",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+    "error_line": 246,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 43,
+        "function": "serviceUnavailable",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "arguments",
+            "query": null
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:11:47"
+  },
+  "60730566a0e8125": {
+    "error_msg": "SQLSTATE[HY000] [1045] Access denied for user 'admin'@'172.18.0.3' (using password: NO)",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+    "error_line": 56,
+    "error_code": 1045,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/ConfigurationDB.php",
+        "line": 56,
+        "function": "__construct",
+        "class": "PDO",
+        "type": "->",
+        "args": [
+          "mysql:host=MySQL;port=3306;dbname=sql_injection",
+          "admin",
+          ""
+        ]
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+        "line": 37,
+        "function": "connect",
+        "class": "ConfigurationDB",
+        "type": "->",
+        "args": []
+      },
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 24,
+        "function": "__construct",
+        "class": "Checker",
+        "type": "->",
+        "args": []
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:19:18"
+  },
+  "60730566a2be926": {
+    "error_msg": "Service Unavailable errorCode ---> 60730566a0e8125",
+    "error_file": "\/var\/www\/html\/sql_injection\/php\/Checker.php",
+    "error_line": 246,
+    "error_code": 0,
+    "trace": [
+      {
+        "file": "\/var\/www\/html\/sql_injection\/php\/manageData.php",
+        "line": 43,
+        "function": "serviceUnavailable",
+        "class": "Checker",
+        "type": "->",
+        "args": [
+          {
+            "req": "arguments",
+            "query": null
+          }
+        ]
+      }
+    ],
+    "ipv4": "172.17.0.1",
+    "date": "11-04-2021 16:19:18"
   }
 }

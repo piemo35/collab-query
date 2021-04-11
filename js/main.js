@@ -143,7 +143,7 @@ $(document).on('keyup', 'textarea', function() {
  * @returns {boolean}
  */
 function isValidQuery(value){
-    const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)/img
+    const regx = /[\/\\?{}|#;$\[\]]|(-|=|\+|\*|\/|@){2,}|(delimiter)|(grant)|(show)/img
     return !value.match(regx) && value.length > 14;
 }
 
